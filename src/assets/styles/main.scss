@@ -1,0 +1,16 @@
+@use 'normalize.css';
+@use './header.scss';
+@use './footer.scss';
+
+body{
+  background-color: #19191a;
+}
+.main-wrapper{
+  margin: 0 auto;
+  width: 1440px;
+  height: 8000px;
+  background-color: beige;
+}
+
+
+
