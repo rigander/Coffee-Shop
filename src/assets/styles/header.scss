@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  flex-direction: column;
+  height: 1159px;
+  position: relative;
+  nav {
+    margin-top: 118px;
+    height: 68px;
+    background-color: rgba(147, 138, 132, 0.149);
+  }
+}
+#top-logo{
+  position: absolute;
+  top: 53px;
+  left: 180px;
+  z-index: 10;
+}
+.top-nav{
+  list-style: none;
+  li a{
+    font-family: Hind Bold, sans-serif;
+    font-size: 35px;
+    color: #d2d1d2;
+    text-decoration: none;
+  }
+}

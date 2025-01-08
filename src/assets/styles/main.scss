@@ -2,6 +2,15 @@
 @use './header.scss';
 @use './footer.scss';
 
+@font-face {
+  font-family: 'Hind Bold';
+  src: local('Hind Bold'),
+       url("@/assets/fonts/Hind-Bold.woff") format('woff'),
+       url("@/assets/fonts/Hind-Bold.ttf") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
   background-color: #19191a;
 }
@@ -9,7 +18,7 @@ body{
   margin: 0 auto;
   width: 1440px;
   height: 8000px;
-  background-color: beige;
+  background-image: url('/img/Background.png');
 }
 
 
