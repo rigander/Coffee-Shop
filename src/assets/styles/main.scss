@@ -47,5 +47,60 @@ body{
   }
 }
 
+/* About us */
+.about-us{
+  margin-top: 81px;
+  display: flex;
+}
+.about-us_p-background{
+  margin-right: 10px;
+  height: 1534px;
+  width: 726px;
+  background-image: url("/img/us.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us_p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 661px;
+  height: 216px;
+  background-color: #f8a72d;
+  p{
+    width: 553px;
+    color: #242424;
+    font-size: 30px;
+    font-family: Hind Regular, sans-serif;
+  }
+}
+.about-us_h1-backgrounds{
+  display: flex;
+  justify-content: center;
+  height: 1534px;
+  width: 720px;
+  background-image: url("/img/cake.png"),
+                    url("/img/cappuccino.png"),
+                    url("/img/frappe.png");
+  background-repeat: no-repeat;
+  background-position: left, center, right;
+  background-size: 230px 1536px, 230px 1536px, 230px 1536px ;
+}
+.about-us_h1{
+  margin-top: 200px;
+  height: 136px;
+  width: 661px;
+  background-color: #f8a72d;
+  h1{
+    margin: 0;
+    color: #242424;
+    font-size: 135px;
+    font-family: FiraSans-Black, sans-serif;
+    text-align: center;
+  }
+}
+
+
 
 
