@@ -14,6 +14,14 @@
               <li><a href="">CONTACT</a></li>
           </ul>
       </nav>
+      <section class="top-banner">
+          <div class="top-banner_content">
+              <h1>COFFEE TIME</h1>
+              <button type="button" class="btn_read-more">
+                  READ MORE
+              </button>
+          </div>
+      </section>
   </header>
 </template>
 

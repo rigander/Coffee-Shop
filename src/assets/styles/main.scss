@@ -1,15 +1,7 @@
 @use 'normalize.css';
 @use './header.scss';
 @use './footer.scss';
-
-@font-face {
-  font-family: 'Hind Bold';
-  src: local('Hind Bold'),
-       url("@/assets/fonts/Hind-Bold.woff") format('woff'),
-       url("@/assets/fonts/Hind-Bold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@use './fonts.scss';
 
 body{
   background-color: #19191a;
@@ -19,6 +11,40 @@ body{
   width: 1440px;
   height: 8000px;
   background-image: url('/img/Background.png');
+}
+
+
+/* Section - Indian traditional flavours */
+.indian-flavours{
+  height: 470px;
+  background-color: #958c7f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indian-flavours_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1174px;
+  article{
+    height: 213px;
+    width: 480px;
+    h2{
+      font-family: Hind Medium, sans-serif;
+      color: #23221b;
+      font-size: 33px;
+    }
+    p{
+      font-family: Hind Medium, sans-serif;
+      font-size: 25px;
+      color: #23221b;
+    }
+  }
+  img{
+    height: 384px;
+    width: 655px;
+  }
 }
 
 

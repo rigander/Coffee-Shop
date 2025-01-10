@@ -11,16 +11,73 @@ header{
 }
 #top-logo{
   position: absolute;
-  top: 53px;
+  top: 65px;
   left: 180px;
   z-index: 10;
 }
 .top-nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   list-style: none;
-  li a{
-    font-family: Hind Bold, sans-serif;
-    font-size: 35px;
-    color: #d2d1d2;
-    text-decoration: none;
+  margin-right: 220px;
+  li{
+      a{
+        display: block;
+        padding: 0 28px;
+        font-family: Hind Bold, sans-serif;
+        font-size: 35px;
+        height: 35px;
+        color: #d2d1d2;
+        text-decoration: none;
+        &:hover{
+          color: #5c2106;
+          background-color: #d2d1d2;
+        }
+    }
   }
 }
+
+.top-banner{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 69px;
+  width: 1174px;
+  height: 815px;
+  background-image: url('/img/Coffee-Time.png');
+}
+.top-banner_content{
+  margin-top: 193px;
+  width: 920px;
+  height: 320px;
+  background-color: rgba(222, 222, 222, 0.71);
+  user-select: none;
+  h1{
+    margin: 45px 0 0 0;
+    font-size: 140px;
+    font-family: FiraSans, sans-serif;
+    text-align: center;
+    color: #1f1f20;
+  }
+}
+.btn_read-more{
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 267px;
+  background-color: #37150a;
+  color: #bd6925;
+  font-size: 42px;
+  border: none;
+  font-family: Hind Regular, sans-serif;
+  padding-top: 8px;
+  &:hover{
+    background-color: #b7681a;
+    color: #351509;
+    cursor: pointer;
+  }
+}
+
+
+

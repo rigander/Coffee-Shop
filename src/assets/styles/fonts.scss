@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Hind Bold';
+  src: local('Hind Bold'),
+  url("@/assets/fonts/Hind-Bold.woff") format('woff'),
+  url("@/assets/fonts/Hind-Bold.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hind Regular';
+  src: local('Hind Regular'),
+  url("@/assets/fonts/Hind-Regular.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hind SemiBold';
+  src: local('Hind SemiBold'),
+  url("@/assets/fonts/Hind-SemiBold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hind Medium';
+  src: local('Hind Medium'),
+  url("@/assets/fonts/Hind-Medium.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: local('FiraSans'),
+  url("@/assets/fonts/FiraSans-ExtraBold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
