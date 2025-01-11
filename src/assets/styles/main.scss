@@ -101,6 +101,295 @@ body{
   }
 }
 
+/* Hot Coffee Cold Coffee Desserts */
+.hot-cold-coffee-deserts{
+  margin: 109px auto 64px auto;
+  width: 1346px;
+  display: flex;
+  color: #fff;
+  h2{
+    margin: 135px 0 10px 0;
+    text-align: center;
+  }
+  p{
+    display: flex;
+    justify-self: center;
+    margin: 0;
+    width: 249px;
+    height: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Raleway, sans-serif;
+  }
+}
+.hot-coffee{
+  width: 434px;
+  height: 462px;
+  background-color: #073240;
+  h2{
+    font-size: 36px;
+    font-family: Hind SemiBold, sans-serif;
+  }
+}
+.cold-coffee{
+  width: 451px;
+  height: 462px;
+  background-color: #643f47;
+  margin-left: 11px;
+  h2{
+    font-size: 36px;
+    font-family: Hind SemiBold, sans-serif;
+  }
+  p{
+    text-align: center;
+  }
+}
+.dessert{
+  margin-left: 11px;
+  width: 439px;
+  height: 462px;
+  background-color: #366c63;
+  h2{
+    font-size: 36px;
+    font-family: Hind SemiBold, sans-serif;
+  }
+  p{
+    text-align: right;
+  }
+}
+
+
+/* Traditional Coffee */
+.traditional-coffee{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 1346px;
+  height: 529px;
+  background-color: rgba(170, 117, 36, 0.2) ;
+  background-image: url("/img/cappuccino-cup.png");
+  background-repeat: no-repeat;
+  background-position: right, left;
+  color: #fff;
+  h1{
+    font-family: Hind Bold, sans-serif;
+    font-size: 94px;
+    margin: 130px 0 10px 72px;
+  }
+  p{
+    margin: 0 0 0 72px;
+    height: 99px;
+    width: 410px;
+    font-family: Hind Regular, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+.sawtooth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  color: #242425;
+  width: 415px;
+  height: 101px;
+  position: relative;
+  h2{
+    margin: 0 0 0 19px;
+    font-size: 30px;
+    font-family: Hind SemiBold, sans-serif;
+  }
+  border: solid transparent;
+  border-width: 10px 0;
+  background-color: hsla(0, 0%, 0%, 0);
+  background-image:
+          linear-gradient(#ddd9d4, #dcd9d4),
+          linear-gradient(to bottom right, transparent 50.5%, #dcd9d4 50.5%),
+          linear-gradient(to bottom left, transparent 50.5%, #ddd9d4 50.5%),
+          linear-gradient(to top right, transparent 50.5%, #dcd9d4 50.5%),
+          linear-gradient(to top left, transparent 50.5%, #dcd9d4 50.5%);
+  background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+  background-position: 0 0, 27.67px 0, 27.67px 0, 27.67px 100%, 27.67px 100%;
+  background-size: auto auto, 27.67px 27.67px, 27.67px 27.67px, 27.67px 27.67px, 27.67px 27.67px;
+  background-clip: padding-box, border-box, border-box, border-box, border-box;
+  background-origin: padding-box, border-box, border-box, border-box, border-box;
+}
+
+/* Chocolate, coffee black and tart with berries */
+.chocolate{
+  margin-top: 90px;
+  padding-top: 129px;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 960px;
+  color: #545455;
+  background-image: url("/img/chocolate-coffeeblack.png");
+  article{
+    box-sizing: border-box;
+    margin-left: 109px;
+    padding-top: 475px;
+    width: 492px;
+    height: 723px;
+    background-color: #fdfdfe;
+    background-image: url("img/tart-berries.png");
+    background-repeat: no-repeat;
+    font-family: Hind Bold, sans-serif;
+  }
+  h3, p, button{
+    margin: 0 0 0 31px;
+  }
+  p{
+    padding: 13px 0 33px 0;
+    width: 343px;
+    font-size: 25px;
+    font-family: Hind Regular, sans-serif;
+  }
+  button{
+    padding: 0;
+    color: #545455;
+    font-size: 21px;
+    width: 129px;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 11px #428073;
+    word-spacing: 12px;
+    &:hover{
+      color: #903731;
+      border-bottom: solid 11px #903731;
+      cursor: pointer;
+    }
+    &:active{
+      color: #ad9475;
+      border-bottom: solid 11px #ad9475;
+    }
+  }
+}
+.tart-berry_date{
+  font-size: 21px;
+  padding-bottom: 25px;
+}
+.tart-berry_title{
+  font-size: 25px;
+}
+
+/* Book Here */
+.book-here{
+  margin-top: 118px;
+  padding-left: 555px;
+  padding-top: 838px;
+  box-sizing: border-box;
+  background-image: url("/img/couple-drink-coffee.png");
+  height: 864px;
+  width: 1440px;
+  user-select: none;
+}
+.book-here_title{
+  display: flex;
+  align-items: center;
+  padding: 15px 70px;
+  text-align: center;
+  height: 100px;
+  width: 172px;
+  background-color: #2a564d;
+  color: #fdfdfe;
+  font-size: 65px;
+  font-family: FiraSans-Black, sans-serif;
+  line-height: 55px;
+}
+
+/* Order Form */
+form{
+  margin: 131px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1163px;
+  height: 220px;
+  color: #fdfdfe;
+  label{
+    margin-bottom: 9px;
+    display: block;
+    width: 150px;
+    font-size: 17px;
+    font-family: Hind Bold, sans-serif;
+  }
+  select, input[type="date"]{
+    appearance: none; /* Remove standard styles */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 32px;
+    width: 237px;
+    font-family: Hind Bold, sans-serif;
+    color: #fdfdfe;
+    background-color: transparent;
+    border: 2px solid #fdfdfe;
+    border-radius: 8px;
+    padding-left: 7px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  select{
+    background-image: url("/img/triangle.svg");
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  input[type="date"]::-ms-clear {
+    opacity: 0;
+  }
+  input[type="date"]{
+    background-image: url("/img/date-picker.png");
+  }
+}
+@mixin input-common-styles {
+  width: 237px;
+  height: 32px;
+  background-color: transparent;
+  border: 2px solid #fdfdfe;
+  border-radius: 8px;
+  color: #fdfdfe;
+  box-sizing: border-box;
+}
+.time input,
+.date input,
+.full-name input,
+.email input,
+.phone input,
+.submit{
+  @include input-common-styles;
+}
+.num-of-per,
+.date,
+.full-name,
+.email{
+  margin-right: 80px;
+}
+
+.submit{
+  padding-top: 4px;
+  font-size: 17px;
+  font-family: Hind Bold, sans-serif;
+  color: #cf8b1c;
+  margin-left: 462px;
+  margin-right: 150px;
+  justify-self: center;
+  align-self: flex-end;
+  &:hover{
+    color: #fbfbfd;
+    background-color: #366c63;
+  }
+  &:active{
+    color: darkred;
+  }
+}
+
+/* Footer */
+
+
+
+
+
+
 
 
 
