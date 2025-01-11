@@ -1,2 +1,68 @@
-/* Footer */
+.thanks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 375px;
+}
+.hearts{
+  user-select: none;
+  padding-top: 80px;
+  padding-bottom: 73px;
+  width: 133px;
+  height: 185px;
+}
+.sack{
+  user-select: none;
+  padding-top: 147px;
+  box-sizing: border-box;
+  color: #fdfdfe;
+  font-family: Hind Regular, sans-serif;
+  font-size: 38px;
+  text-align: center;
+  height: 297px;
+  width: 375px;
+  background-image: url("/img/footer/sack-of-beans.svg");
+}
 
+/* Footer */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 126px;
+  height: 534px;
+  width: 100%;
+  background: linear-gradient(to bottom, #1f1f20 88px, #eaeaea 88px);
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    color: #5a4440;
+    font-family: Hind Regular, sans-serif;
+    font-size: 25px;
+  }
+}
+.logo-footer{
+  margin-top: 126px;
+  margin-bottom: 23px;
+  height: 170px;
+  width: 120px;
+}
+.social-content{
+  width: 316px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 60px;
+    height: 60px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+.plant{
+  height: 500px;
+  align-self: flex-end;
+}

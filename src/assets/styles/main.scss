@@ -7,12 +7,16 @@ body{
   background-color: #19191a;
 }
 .main-wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   margin: 0 auto;
   width: 1440px;
-  height: 8000px;
   background-image: url('/img/Background.png');
 }
-
+.main-content{
+  flex: 1;
+}
 
 /* Section - Indian traditional flavours */
 .indian-flavours{
@@ -340,6 +344,14 @@ form{
   input[type="date"]{
     background-image: url("/img/date-picker.png");
   }
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  input[type="time"]{
+    background-image: url("/img/clock-sign.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
 }
 @mixin input-common-styles {
   width: 237px;
@@ -364,7 +376,6 @@ form{
 .email{
   margin-right: 80px;
 }
-
 .submit{
   padding-top: 4px;
   font-size: 17px;
@@ -381,6 +392,11 @@ form{
   &:active{
     color: darkred;
   }
+}
+input::placeholder{
+  color: #d3d3d5;
+  padding-left: 5px;
+  font-family: Hind Bold, sans-serif;
 }
 
 

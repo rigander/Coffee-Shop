@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="main-wrapper">
+  <div class="main-content">
       <section class="indian-flavours">
           <div class="indian-flavours_content">
               <article>
@@ -110,15 +110,15 @@
           </div>
           <div class="full-name">
               <label for="full-name">Name</label>
-              <input name="full-name" type="text">
+              <input placeholder="Full name" name="full-name" type="text">
           </div>
           <div class="email">
               <label for="email">Email</label>
-              <input name="email" type="email">
+              <input placeholder="Your email address" name="email" type="email">
           </div>
           <div class="phone">
               <label for="phone">Phone</label>
-              <input name="phone" type="number">
+              <input  placeholder="Your phone" name="phone" type="tel">
           </div>
           <button class="submit" type="submit">SUBMIT</button>
       </form>
